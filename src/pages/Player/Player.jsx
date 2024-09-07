@@ -19,7 +19,7 @@ const Player = () => {
     method: 'GET',
     headers: {
       accept: 'application/json',
-      Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhZWUxZWJmNjEzMjFiMzViNDU5YjgwMGNlNDRiNTg5MCIsIm5iZiI6MTcyNTU0MTA0MC41MzE0MjEsInN1YiI6IjY2ZDM2MzdlZGU3Yjg0MTRhOWFlMGMzMyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.tqzSWl5lz_gG7-ZEEto5ecN09oDxOyrAf0r9mx3gPQM'
+      Authorization: ''
     }
   };
   

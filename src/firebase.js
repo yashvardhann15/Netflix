@@ -6,7 +6,7 @@ import { createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut } f
 import { toast } from "react-toastify";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDrJcizP-4L2oVxasmlulXUPbrC9TiMhhU",
+  apiKey: "",
   authDomain: "netflix-clone-35eab.firebaseapp.com",
   projectId: "netflix-clone-35eab",
   storageBucket: "netflix-clone-35eab.appspot.com",
