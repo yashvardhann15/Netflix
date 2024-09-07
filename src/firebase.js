@@ -5,8 +5,9 @@ import { addDoc, collection, getFirestore } from "firebase/firestore";
 import { createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut } from "firebase/auth";
 import { toast } from "react-toastify";
 
+console.log('Firebase API Key:', process.env.REACT_APP_FIREBASE_API_KEY);
 const firebaseConfig = {
-  apiKey: "",
+  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
   authDomain: "netflix-clone-35eab.firebaseapp.com",
   projectId: "netflix-clone-35eab",
   storageBucket: "netflix-clone-35eab.appspot.com",
@@ -20,6 +21,7 @@ const analytics = getAnalytics(app);
 
 const auth = getAuth(app);
 const db = getFirestore(app);
+
 
 const signUp = async (name , email , password) =>{
     try{

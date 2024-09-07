@@ -19,7 +19,7 @@ const Player = () => {
     method: 'GET',
     headers: {
       accept: 'application/json',
-      Authorization: ''
+      Authorization: process.env.REACT_APP_PLAYER_API_KEY
     }
   };
   

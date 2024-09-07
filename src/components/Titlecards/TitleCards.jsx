@@ -10,7 +10,7 @@ const TitleCards = ({ title, category }) => {
     method: 'GET',
     headers: {
       accept: 'application/json',
-      Authorization: ''
+      Authorization: process.env.REACT_APP_TITLECARDS_API_KEY
     }
   };
 
